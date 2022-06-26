@@ -61,4 +61,7 @@ app.get("/lyrics", async (req, res) => {
     "No Lyrics Found";
   res.json({ lyrics });
 });
+app.get("/test", async (req, res) => {
+  res.json({ test: "Hello world" });
+});
 app.listen(3001);
