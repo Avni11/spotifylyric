@@ -62,6 +62,6 @@ app.get("/lyrics", async (req, res) => {
   res.json({ lyrics });
 });
 app.get("/test", async (req, res) => {
-  res.json({ test: "Hello world" });
+  res.json({ test: "welcome" });
 });
 app.listen(3001);
